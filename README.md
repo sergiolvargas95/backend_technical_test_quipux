@@ -1,1 +1,1 @@
-# pueba_tecnica_backend_quipux
+# backend_technical_test_quipux
