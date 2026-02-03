@@ -90,7 +90,7 @@ Role: ROLE_USER
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/playlist-api.git
+git clone https://github.com/sergiolvargas95/backend_technical_test_quipux.git playlist-api
 cd playlist-api
 ```
 
