@@ -49,7 +49,6 @@ public class ListSongService {
                 .name(dto.getName())
                 .description(dto.getDescription())
                 .build();
-
         for(SongRequestDto songDto : dto.getSongs()) {
             Song song = findOrCreateSong(songDto);
             newList.addSong(song);
@@ -66,6 +65,14 @@ public class ListSongService {
         return lists.stream()
                 .map(ListSongResponseDto::fromEntity)
                 .collect(Collectors.toList());
+    }
+
+    public ListSongResponseDto getListByName(String listName) {
+        ListSong list = listSongRepository.findByNameWithSongs(listName)
+                .orElseThrow(() -> {
+                    return new ResourceNotFoundException("Lista", "nombre", listName);
+                });
+        return mapper.toListSongResponseDTO(list);
     }
 
     public void deleteListByName(String listName) {

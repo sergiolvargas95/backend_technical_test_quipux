@@ -36,6 +36,7 @@ public class Song {
     private String genre;
 
     @ManyToMany(mappedBy = "songs", fetch = FetchType.LAZY)
+    @Builder.Default
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Set<ListSong> list = new HashSet<>();
