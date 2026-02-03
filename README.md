@@ -263,9 +263,8 @@ spring.jpa.show-sql=true
 
 Importa la colección de Postman incluida en el repositorio:
 
-```
-Playlist_API_postman_collection.json
-```
+- [Playlist_API_postman_collection.json](https://drive.google.com/file/d/1hMA5BtZyb7SHP3ajjqKok_8yiSixi1po/view?usp=sharing)
+- [Playlist_API_postman_environment.json](https://drive.google.com/file/d/1J5dk0_qYc6g2sffpmyFuzbp1WXWJy-iM/view?usp=sharing)
 
 La colección incluye:
 - Ejemplos de todas las peticiones
@@ -344,7 +343,7 @@ curl -X POST http://localhost:8080/api/v1/lists \
 
 ## 👨‍💻 Autor
 
-[Tu Nombre](https://github.com/tu-usuario)
+[Sergio Luis Vargas Meléndez](https://github.com/sergiolvargas95)
 
 ---
 
@@ -354,23 +353,11 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
----
-
 ## 📞 Contacto
 
-- Email: tu-email@example.com
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- Email: sergiolvargas95@gmail.com
+- LinkedIn: [sergiovargas95](https://www.linkedin.com/in/sergiovargas95/)
+- GitHub: [@sergiovargas95](https://github.com/sergiolvargas95)
 
 ---
 
