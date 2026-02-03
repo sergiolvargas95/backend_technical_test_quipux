@@ -34,7 +34,7 @@ public class ListSong {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.LAZY)
+    @ManyToMany(cascade = {CascadeType.MERGE, CascadeType.MERGE}, fetch = FetchType.LAZY)
     @JoinTable(
             name = "list_song_songs",
             joinColumns = @JoinColumn(name = "list_song_id"),
