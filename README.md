@@ -347,12 +347,6 @@ curl -X POST http://localhost:8080/api/v1/lists \
 
 ---
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
 ## 📞 Contacto
 
 - Email: sergiolvargas95@gmail.com
